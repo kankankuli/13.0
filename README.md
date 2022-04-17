@@ -5,6 +5,10 @@ apt update
 apt upgrade
 snap install docker         
 apt install docker-compose
+git clone https://github.com/kankankuli/13.0.git
+cd 13.0
+docker build -t 13.0/odoo13:20211007 .
+cd\
 nano docker-compose.yml
 ###
 
