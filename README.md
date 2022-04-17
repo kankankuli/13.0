@@ -47,7 +47,7 @@ nano etc/odoo.conf
 [options]
 addons_path = /mnt/extra-addons
 data_dir = /var/lib/odoo
-logfile = /var/log/odoo/odoo.log
+;logfile = /var/log/odoo/odoo.log
 admin_passwd = Lsf7000+
 ;list_db = False
 list_db = True
