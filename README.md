@@ -28,7 +28,7 @@ services:
         - ./postgresql:/var/lib/postgresql/data
 
   odoo13:
-    image: odoo:13
+    image: 13.0/odoo13:20220421
     depends_on:
       - db
     ports:
