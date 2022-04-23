@@ -60,3 +60,5 @@ docker-compose stop
 docker-compose up -d
 
 
+###
+docker image rm 4bb46517cac3
